@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'pages/dismissable.dart';
+import 'pages/drawer.dart';
 import 'pages/home.dart';
 
 void main(List<String> args) {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Practice Widget",
-      home: Dismissablewwidget(),
+      home: Drawerwidget(),
     );
   }
 }
