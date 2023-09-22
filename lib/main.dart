@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:widget_practice/pages/AnimatedText.dart';
 import 'package:widget_practice/pages/alert.dart';
+import 'package:widget_practice/pages/bottomNavBar.dart';
+import 'package:widget_practice/pages/bottom_sheet.dart';
+import 'package:widget_practice/pages/dropDownList.dart';
 
 import 'pages/dismissable.dart';
 import 'pages/drawer.dart';
@@ -16,8 +20,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          brightness: Brightness.light, primaryColor: Colors.purple.shade200),
       title: "Practice Widget",
-      home: Altert_widget(),
+      home: Dropdownlist(),
     );
   }
 }
