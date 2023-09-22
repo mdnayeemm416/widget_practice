@@ -70,8 +70,17 @@ class Drawerwidget extends StatelessWidget {
       appBar: AppBar(
         title: Text("Drawer"),
       ),
-      body: Container(
-        child: Center(child: Text("Drawer")),
+      body: Center(
+        child: Container(
+          height: 250,
+          width: 250,
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(50),
+              image: DecorationImage(
+                image: AssetImage("assets/drwaer.jpg"),
+              )),
+          child: Text("image"),
+        ),
       ),
     );
   }

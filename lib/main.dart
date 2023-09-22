@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_practice/pages/alert.dart';
 
 import 'pages/dismissable.dart';
 import 'pages/drawer.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Practice Widget",
-      home: Drawerwidget(),
+      home: Altert_widget(),
     );
   }
 }
