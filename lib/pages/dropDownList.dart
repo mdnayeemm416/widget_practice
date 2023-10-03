@@ -18,6 +18,7 @@ class _DropdownlistState extends State<Dropdownlist> {
           width: MediaQuery.of(context).size.width,
           child: DropdownButton<String>(
               value: selectvalue,
+              isExpanded: true,
               items: ["orange", "Apple", "Malta", "Mango"]
                   .map<DropdownMenuItem<String>>((String value) {
                 return DropdownMenuItem<String>(
